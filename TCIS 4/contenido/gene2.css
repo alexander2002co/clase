@@ -1,0 +1,91 @@
+body{
+	background-color: black;
+	background-image: url("img/fondo1.jpg");
+	background-repeat: no-repeat;
+    background-size: 1400px auto;
+    background-position: 20% 29%;
+  	margin: 0;
+}
+*{
+	font-family: "Atlantis the lost City";
+	font-size: 120%;
+}
+div#ext{
+	background-color: rgba(101,101,101,0.6);
+	position: absolute;
+	left: 15%;
+	top: 15%;
+	bottom: 15%;
+	right: 15%;
+	height: 70%;
+	width: 70%;
+}
+div#logo{
+	float: left;
+	height: 90%;
+	width: 45%;
+	position: relative;
+	left: 3%;
+	top: 3%;
+	bottom: 3%;
+}
+img#logoti{
+	width: 100%;
+	position: relative;
+	top: 35%;
+}
+div#login{
+	float: right;
+	height: 90%;
+	width: 45%;
+	position: relative;
+	right: 3%;
+	top: 3%;
+	bottom: 3%;
+	text-align: center;
+	border-left: 2px solid #FFF;
+}
+h1{
+	color: white;
+	margin-top: 0.1%;
+	margin-bottom: 0.1%;
+}
+form{
+	width: auto;
+	position: relative;
+	top: 0.2%;
+	left: 3%;
+	bottom: 3%;
+	height: auto;
+	background: rgba(243,243,243,0.5);
+	padding: 1.5%;
+	border-radius: 5px;
+}
+input{
+	align-self: center;
+	display: block;
+	padding: 2%;
+	width: 95%;
+	margin: 1% 0;
+	font-size: 60%;
+}
+input[type="submit"]{
+	width: 100%;
+	margin-top: 7%;
+	margin-bottom: 7%;
+	background-color: rgb(199, 193, 255);
+	border: 1% black;
+	color: black;
+	cursor: pointer;
+	border-radius: 15px;
+	margin-bottom: 0;
+}
+input[type="submit"]:hover{
+	background-color: #545454;
+	color: white;
+}
+input[type="submit"]:active{
+	color: white;
+	background-color: #545454;
+	transform: scale(0.95);
+}

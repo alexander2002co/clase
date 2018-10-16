@@ -1,0 +1,72 @@
+body{
+	background-image: url("img/fondo1.jpg");
+	background-repeat: no-repeat;
+    background-size: 1400px auto;
+    background-position: 20% 29%;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
+h2{
+	font-family: "Atlantis the lost City";
+	font-size: 50px;
+}
+div#ext{
+	width: 700px;
+	position: absolute;
+	top: 5%;
+	left: 20%;
+	background-color: rgba(251, 251, 251, 0.75);
+	border-radius: 30px;
+	margin-bottom: 20px;
+	border-bottom: 5px solid rgba(161,161,161,0.75);
+	border-left: 5px solid rgba(161,161,161,0.75);
+}
+select{
+	width: 100%;
+}
+table{
+	width: 100%;
+}
+div#logo{
+	width: auto;
+	box-sizing: border-box;
+}
+h1{
+	font-family: "Atlantis the lost City";
+	font-size: 50px;
+	margin: 0;
+}
+img#imgenlogo{
+	width: 100px;
+	height: auto;
+	display:block;
+	margin: 0;
+}
+*{
+	font-family: Times New Roman;
+	box-sizing: border-box;
+}
+form{
+	margin: auto;
+	width: 100%;
+	max-width: 1000px;
+	background: #F3F3F3;
+	padding: 30px;
+	border:1px solid rgba(0,0,0,0.5) ;
+	margin-bottom: 20px;
+}
+#coment{
+	height: 100px;
+}
+div#cont{
+	width: 100%;
+}
+select{
+	width: 30px;
+}
+input[type="radio"]{
+	width: 25%;
+}
+input{
+	width: 100%;

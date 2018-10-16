@@ -1,0 +1,5 @@
+Tipo		Usuario        	Clave 
+
+Cliente		Cliente 	Cliente9873
+Supervisor	Harold 		Harold2764
+Administrador	Rochy		Rochy1900
